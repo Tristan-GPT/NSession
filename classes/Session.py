@@ -2,7 +2,7 @@ from functions.sessiontoken import sessiontoken_gen
 from environments.session import session
 
 class Session:
-    def createSession(self, name=str, id=int,security_code=str, index=int):
+    def createSession(self, name=str, id=str,security_code=str, index=int):
         self.name = name
         self.id = id
         self.sessionToken = sessiontoken_gen()
