@@ -1,3 +1,7 @@
 # PyIronSession
 
-## PyIronSession est un projet OpenSource. Il sert à la création de session web
+## Open Source
+
++ Création de session web simplifié.
++ Stockage de données local.
++ Code optimisé
