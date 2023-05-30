@@ -30,3 +30,4 @@ class Session:
             return True, self.data
         else:
             return False, None   
+        
