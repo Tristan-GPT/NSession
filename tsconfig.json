@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        
+        "allowArbitraryExtensions": true,
+        "allowImportingTsExtensions": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": true,
+        "allowUmdGlobalAccess": true,
+        "alwaysStrict": true,
+        "strict": true,
+        "moduleResolution": "Bundler",
+        "noEmit": true,
+
+        "baseUrl": "./",
+
+        "checkJs": true,
+        "declaration": true,
+        "declarationDir": "types",
+        "declarationMap": true,
+        "importHelpers": false,
+        "newLine": "lf",
+        "noEmitHelpers": true,
+        "outDir": "dist",
+        "removeComments": false,
+        "esModuleInterop": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+
+        "resolvePackageJsonExports": true,
+        "resolvePackageJsonImports": true,
+
+        "target": "ESNext",
+        "experimentalDecorators": true,
+        "lib": ["ESNext"],
+        "useDefineForClassFields": true
+
+    },
+    "exclude": ["node_modules"],
+    "include": ["./packages/**/*"]
+    
+}

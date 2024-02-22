@@ -1,0 +1,48 @@
+{
+  "name": "nsession",
+  "version": "1.0.0",
+  "description": "A simple open source & communauty-driven framework for create & manage web session",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "npx --no-install commitlint -E HUSKY_GIT_PARAMS",
+    "prepare": "npx husky install",
+    "lint": "npx eslint --fix .",
+    "format": "npx prettier . --write",
+    "precommit": "npm run lint && npm run format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tristan-GPT/NSession.git"
+  },
+  "keywords": [
+    "framework",
+    "web",
+    "session",
+    "web-session"
+  ],
+  "author": "Tristan-GPT",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Tristan-GPT/NSession/issues"
+  },
+  "homepage": "https://github.com/Tristan-GPT/NSession#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-angular": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.2",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.56.0",
+    "eslint-config-neon": "^0.1.58",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-formatter-pretty": "^6.0.1",
+    "eslint-plugin-html": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-security": "^2.1.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
